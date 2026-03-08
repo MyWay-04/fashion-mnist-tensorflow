@@ -28,13 +28,6 @@ ds_test = ds_test.map(
     lambda x, y: (tf.cast(x, tf.float32)/255.0, y)
 ).batch(BATCH_SIZE)
 
-# # Define the model ex1
-# model = tf.keras.models.Sequential([
-#     tf.keras.layers.Flatten(),
-#     tf.keras.layers.Dense(64, activation='relu'),
-#     tf.keras.layers.Dense(10, activation='softmax')
-# ])
-
 # Define the model
 model = tf.keras.models.Sequential([
     tf.keras.layers.Flatten(),
