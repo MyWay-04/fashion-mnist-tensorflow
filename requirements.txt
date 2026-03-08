@@ -1,0 +1,5 @@
+# TensorFlow ML stack for Fashion MNIST
+tensorflow>=2.16,<2.22
+numpy>=1.26,<2.0
+tensorflow-datasets>=4.9
+importlib-resources>=6.0
