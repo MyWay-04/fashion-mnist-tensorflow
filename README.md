@@ -39,6 +39,7 @@ Removed input normalization to observe the impact on training accuracy.
 Removed the `Flatten()` layer to demonstrate shape mismatch errors.
 ### Exercise 5
 Changed the number of neurons in the output layer to show why it must match the number of classes.
+
 ---
 ## Requirements
 Install the required libraries: requirements.txt 
